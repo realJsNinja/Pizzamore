@@ -1,0 +1,24 @@
+.figure img{
+    width: 100%;
+    height: auto;
+}
+
+#backgroundBannerImage{
+    width: 91.4893617021%; /* 860 / 940 */
+}
+
+#foregroundBannerImage{
+    width: 40.4255319%; /* 380 / 940 */
+}
+
+
+.article .figure {
+    width: 43.75%; /* 280 / 640 */
+}
+
+
+.pizzaRollImage{
+    width: 47.5414634146%; /* 190 / 410 */
+    margin:10px 0.609756%; /* 5 / 820 */
+}
+

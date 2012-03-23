@@ -1,0 +1,49 @@
+
+.logoText{
+    font-size: 6em; /* 72 / 12 */
+}
+
+.logoSubText{
+    font-size: 2.3333em; /* 28 / 12 */
+}
+
+.siteBlurb{
+    font-size: 1.33333em; /* 16 / 12 */
+}
+
+#leftBar .rescentText{
+    font-size: 1.1666666666em; /* 14 / 12 */
+}
+
+.rescentPostInfo{
+    font-size: 0.833333333em; /* 10 / 12 */
+}
+
+.article p{
+    font-size: 1.16666666em; /* 14 / 12 */
+}
+
+.articleInfo{
+    font-size: 0.833333333em; /* 10 / 12 */
+}
+
+.boxBackground{
+    font-size: 2em;
+}
+
+.article .boxBackground{
+    font-size: 2em;
+}
+
+.boxBackground .subtext{
+    font-size: 1.1666666666em; /* 14 / 12 ?????? */
+
+}
+
+.footerLinkListWrapper h3{
+    font-size: 1.6666666666em; /* 20 / 12 */
+}
+
+.footerLinkList li a{
+    font-size: 1.33333em; /* 16 / 12 */
+}

@@ -1,0 +1,12 @@
+/* Grid View */
+
+
+#page{
+    background: url("images/960Grid.png") repeat ;
+    background-size: 100% auto;
+}
+
+#page *{
+    opacity: 0.9;
+}
+

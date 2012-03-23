@@ -1,0 +1,240 @@
+@media screen and (max-width: 860px) {
+
+    body{
+        font-size: 80%;
+    }
+
+    #menu a {
+        font-size: 1.2em;
+    }
+
+    #logoTextWrapper {
+        left: 6.25%;
+        top: 30px;
+    }
+
+    .siteBlurb {
+        font-size: 1.1em;
+    }
+
+    #foregroundBannerImage {
+        top: 75px;
+    }
+
+    .rescentPostTitle {
+        background-image: none;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+
+    body{
+        background: #333;
+    }
+
+    #page{
+        width: 100%;
+    }
+
+    #menu{
+        right: 20px;
+    }
+
+    #menu ul li{
+        border:none;
+        line-height: 30px;
+    }
+    #menu ul li.sosialIcon{
+        width: 30px;
+    }
+
+    #menu a, #menu a:hover {
+        color: #FEDA52;
+        font-size: 1.8em;
+    }
+
+    #header{
+        margin-top: 50px;
+    }
+
+    #logoTextWrapper {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .logoText {
+        font-size: 4em;
+    }
+
+    .logoSubText {
+        font-size: 1em;
+    }
+
+    #backgroundBannerImage {
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+    }
+
+    #foregroundBannerImage{
+        display: none;
+    }
+
+    .darkBoxBackground{
+        margin:0;
+    }
+
+    .article {
+        -mozz-box-shadow: none;
+        -o-box-shadow: none;
+        -ms-box-shadow: none;
+        -webkit-box-shadow :none;
+        box-shadow: none;
+    }
+
+    #main,
+    #content,
+    #leftBar
+    {
+        display: block;
+    }
+
+    #leftBar {
+        width: auto;
+        padding: 0 0 10px 0;
+    }
+
+    #leftBar .rescentPost {
+        padding: 10px 1.0638297872%;
+        margin: 5px 6.3829787%;
+        border: 2px outset #333;
+        background-color:#FCE695;
+        color: #8f3127;
+        background: -moz-linear-gradient(
+            top,
+            #fce695 0%,
+            #fed952);
+        background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#fce695),
+            to(#fed952));
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border: 1px solid #333333;
+        -moz-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,1);
+        -webkit-box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 1px rgba(255,255,255,1);
+
+    }
+
+    #leftBar .rescentPost:hover {
+        -webkit-box-shadow: none;
+    }
+
+    .rescentPostLink{
+        display: block;
+    }
+
+    .rescentText{
+        display: none;
+    }
+
+    .rescentPostTitle{
+        min-height: inherit;
+        color:#AF3C2D;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    #page {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    #backgroundBannerImage {
+        height: 100px;
+    }
+
+    #content{
+        padding: 0;
+    }
+
+    #header {
+        margin-top: 0px;
+    }
+
+    #menu {
+        position: static;
+        font-weight: bold;
+    }
+    #menu ul li {
+        display: block;
+        padding: 0 5px;
+        border-left: 1px #333 solid;
+        line-height: inherit;
+    }
+
+    .footerLinkList li a, #menu ul li a, #menu ul li a:hover{
+        font-size: 2em;
+        display: block;
+        margin: 5px 0;
+        padding: 5px;
+        background-color: #FEDA52;
+        color:#AF3C2D;
+        border: solid 2px #AF3C2D;
+        -moz-border-radius-topleft: 6px;
+        border-top-left-radius: 6px;
+        -moz-border-radius-bottomleft: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    #menu ul li.sosialIcon {
+        display: none;
+    }
+
+    #menu ul li.sosialIcon a{
+        background-color: #333;
+    }
+
+    .article{
+        margin:0;
+    }
+
+    .articleNumber,
+    .siteBlurb{
+        display: none;
+    }
+
+    .article .figureRight,
+    .article .figureLeft{
+        width: 100%;
+        float:none;
+        clear:none;
+    }
+
+    .pizzaRollSubGroup{
+        float:none;
+        width:100%;
+    }
+
+    #footerLinksNavigationWrapper{
+        display: block;
+    }
+
+    .footerLinkListWrapper{
+        display: block;
+        width: 100%;
+    }
+
+    .footerLinkListWrapper:first-child {
+        border-right: none;
+    }
+
+}

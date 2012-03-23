@@ -1,0 +1,439 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End reset */
+
+body{
+    background: url("images/floral_background.png") repeat-x #E7E7E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+a img,
+b img{
+    width: 100%;
+    height: auto;
+}
+
+.awesome{
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+.attribute{
+    font-style: italic;
+}
+
+#page{
+    position: relative;
+    z-index: 5;
+    width: 940px;
+    margin:20px auto;
+    padding: 10px;
+}
+
+
+#header{
+    margin-top: 30px;
+}
+
+#banner{
+    position: relative;
+}
+
+#logoTextWrapper{
+    position: absolute;
+    z-index: 10;
+    top: 70px;
+    left:80px;
+    text-align: center;
+}
+
+
+.logoText{
+    font: bold 72pt 'Arial Black', Gadget, sans-serif;
+    color: #B10303;
+    text-shadow: #fff 0 0 0.2em;
+}
+
+.logoSubText{
+    font: bold 28pt 'Arial Black', Gadget, sans-serif;
+    color: #FEDA52;
+    text-shadow: #333 0 0 6pt;
+}
+
+
+
+#backgroundBannerImage{
+    display: block;
+    width: 860px;
+    
+}
+
+#foregroundBannerImage{
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 100px;
+    right:0;
+    width: 380px;
+}
+
+
+#menu{
+    position: absolute;
+    right:5px;
+    top:5px;
+    z-index: 5;
+    font-weight: bold;
+}
+
+#menu a{
+    text-decoration: none;
+    color:#B10303;
+    display: block;
+}
+
+#menu a:hover,
+#menu a:focus{
+    text-decoration: underline;
+    color:#333;
+
+}
+
+#menu ul li{
+    display: inline-block;
+    padding:0 5px;
+    border-left: 1px #333 solid;
+    line-height: inherit;
+}
+#menu ul li.sosialIcon{
+    width: 20px;;
+}
+
+#menu ul li:first-child{
+    border-left: none;
+}
+/*
+#menu ul li:first-child{
+    padding-left: 13px;
+}*/
+
+.siteBlurb{
+    background-color: #FFF8DC;
+    font-size: 16pt;
+    padding: 20px 25px;
+    text-align: center;
+}
+
+#main{
+   display: table;
+    border-collapse: collapse;
+    background-color: #FFF8DC;
+}
+
+#content{
+    display: table-cell;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+#leftBar{
+    display: table-cell;
+    width:220px;
+    padding: 30px 10px;
+    background-color: #FFF8DC;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#leftBar .rescentText{
+    font:14pt bold;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+#leftBar .rescentPost{
+    text-align: left;
+    margin:20px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+}
+
+
+#leftBar .rescentPost a{
+    text-decoration: none;
+    color: #00AA23;
+}
+
+.rescentPostTitle{
+    background: url("images/list-bullet.png") no-repeat;
+    display: block;
+    min-height: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rescentPostInfo{
+    font-size: 10pt;
+    font-style: italic;
+    color:#333;
+
+}
+
+
+
+
+.article{
+    background: #FDFAED;
+    width: 640px;
+    margin: 15px;
+    padding:20px;
+    -mozz-box-shadow: 0 0 12px 5px #f7f4ea;
+    -o-box-shadow: 0 0 12px 5px #f7f4ea;
+    -ms-box-shadow: 0 0 12px 5px #f7f4ea;
+    -webkit-box-shadow: 0 0 12px 5px #f7f4ea;
+    box-shadow: 0 0 12px 5px #f7f4ea;
+}
+
+.article p{
+    margin: 10px 0;
+    font-size: 14pt;
+}
+
+.articleInfo{
+    padding-top: 10px;
+    font-size: 10pt;
+}
+
+.boxBackground{
+    padding:10px;
+    font: 24pt bold Arial, 'Arial Black', Gadget, sans-serif;
+    color: #333;
+    background: #FEDA52;
+    -mozz-box-shadow:  2px 2px 8px -3px #333;
+    -o-box-shadow: 0 2px 2px 8px -3px #333;
+    -ms-box-shadow: 0 2px 2px 8px -3px #333;
+    -webkit-box-shadow: 2px 0 6px 2px #333;
+    box-shadow: 2px 2px 8px -3px #333;
+}
+
+.boxBackground .subtext{
+    font: 14pt 'Trebuchet MS', Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.articleNumber{
+    height: 65px;
+    width: 80px;
+    background: url("images/slice_number.png") no-repeat;
+    float:left;
+    clear: right;
+    margin-left: 0px;
+    padding:5px;
+}
+.articleNumberTextWrapper{
+    margin-top: 10px;
+    margin-left: 13px;
+    color: #231F20;
+    font-size: 10pt;
+}
+
+.articleNumberText{
+    display: block;
+    font: 18pt bold 'Trebuchet MS', Helvetica, sans-serif;
+
+}
+
+.articleInfo{
+    text-align: right;
+}
+
+.figure {
+    width: 280px;
+    margin:10px 0px;
+}
+
+.figureRight{
+    float: right;
+    clear:left;
+    margin-left:10px;
+}
+
+.figureLeft{
+    float: left;
+    clear:right;
+    margin-right:10px;
+}
+
+
+.figure img{
+    width: 100%;
+    height: auto;
+}
+
+.figureCaption{
+    font: 0.8em Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.articleInfo{
+    clear:both;
+    border-top: solid 2px #333;
+}
+
+#pizzaRoll{
+    background-color: #FFF8DC;
+}
+
+.pizzaRollGroup{
+    padding: 0 60px;
+}
+
+.pizzaRollSubGroup{
+    float:left;
+}
+
+.pizzaRollGroup a{
+    display: block;
+}
+
+
+
+
+
+.pizzaRollCaption{
+    margin: 0 60px;
+}
+
+.pizzaRollImage{
+    width:190px;
+    float:left;
+    margin:5px;
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+}
+
+.pizzaRollImage:hover{
+    -webkit-transform: rotate(-5deg);
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+}
+
+#footer{
+
+}
+
+.darkBoxBackground{
+    background: #B23524;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#B23524), to(#af3c2d));
+    background: -moz-linear-gradient(top,  #B23524,  #af3c2d);
+    background: -webkit-linear-gradient(top,  #B23524,  #af3c2d);
+    background: -ms-linear-gradient(top,  #B23524,  #af3c2d);
+    background: -o-linear-gradient(top,  #B23524,  #af3c2d);
+    margin: 0 80px;
+    padding-top: 20px;
+    color:#FEDA52;
+}
+
+
+#footerLinksNavigationWrapper{
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footerLinkListWrapper{
+    display: table-cell;
+    width: 50%;
+    padding-left: 40px;
+
+}
+
+.footerLinkListWrapper:first-child{
+    border-right: solid #FFF 1px;
+}
+
+.footerLinkListWrapper h3{
+
+    font: bold 20pt 'Trebuchet MS', Helvetica, sans-serif;
+    padding: 10px 0;
+}
+
+
+.footerLinkList li a{
+    color: #FFF;
+    font: bold 16pt 'Trebuchet MS', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.footerLinkList li a:hover{
+    color: #E0864A;
+    text-decoration: underline;
+}
+
+.copyright{
+    background: #333;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.copyrightText{
+    font-weight: bold;
+    color:#FFF;
+}
+
+#fancypain{
+    display: none;
+}
+

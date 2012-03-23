@@ -1,0 +1,76 @@
+/* Relative widths */
+#page{
+    width: 90%; /* ???? */
+    padding-left: 1.0638297872%; /* 10 / 940 */
+    padding-right: 1.0638297872%; /* 10 / 940 */
+}
+
+#logoTextWrapper{
+    left: 17.02127659574468%; /* 160 / 940 */
+}
+
+.siteBlurb p{
+    padding-left: 2.659574468%; /* 25 / 940 */
+    padding-right: 2.659574468%; /* 25 / 940 */
+}
+
+/*  article 710px, leftBar 230px  */
+
+#leftBar{
+    width: 24.4680851%; /* 230 / 940 */
+    padding-left: 1.063829787%; /* 10 / 940 */
+    padding-right: 1.063829787%; /* 10 / 940 */
+}
+
+
+.rescentPostTitle{
+    padding-left: 11.904761%; /* 25 / 210 */
+}
+
+
+
+.article{
+    width: 90.140845%; /* 640 / 710 */
+    margin: 2.112676056%; /* 15 / 710 */
+    padding: 2.8169014%; /* 20 / 710 */
+}
+
+.boxBackground{
+    padding:10px 1.0638297872%; /* 10 / 940 */
+}
+
+.article .boxBackground{
+    padding:10px 1.5625%; /* 10 / 640 */
+}
+
+
+.article .figureRight{
+    margin-left: 1.5625%; /* 10 / 640 */
+}
+
+.article .figureLeft{
+    margin-left: 1.5625%; /* 10 / 640 */
+}
+
+.pizzaRollGroup{
+    padding: 0 6.3829787%; /* 60 / 940 */
+}
+
+.pizzaRollCaption{
+    margin: 0 6.3829787%; /* 60 / 940 */
+}
+
+.pizzaRollSubGroup{
+    width: 50%;
+}
+
+
+.darkBoxBackground{
+    margin: 0 8.33333333333%; /* 80 / 940 */
+}
+
+.footerLinkListWrapper{
+    padding-left: 4.2553191%; /* 40 / 940 */
+}
+
+
